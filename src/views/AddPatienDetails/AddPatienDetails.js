@@ -183,11 +183,36 @@ export default function AddressForm() {
 
 	async function submittt() {
 
+		console.log("LOgesh")
 
 
-console.log ("sdfkjdshf")
+	// 	const jwt = await initJWTService({
+	// 		JWT: {
+	// 			secret: "mark it zero",
+	// 			duration: '300d',
+	// 			tolerance: '300h',
+	// 			algorithms: ['HS256'],
+	// 		},
+	// 		log: console.log.bind(console),
+	// 		time: Date.now.bind(Date),
+	// 	});
+
+	// 	const token = await jwt.sign({
+	// 	username: "admin",
+	// 	password:"iamyadav"
 	
-	
+	// });
+
+	// console.log (token.token)
+		// var CryptoJS = require("crypto-js");			
+		// var ciphertext = CryptoJS.AES.encrypt(JSON.stringify(token.token), localStorage.getItem("phonenumber")).toString();
+		// var test = sha256(localStorage.getItem("phonenumber"));
+		// setmapEncrypt(ciphertext + test)
+
+		// submitChanges(ciphertext + test)
+
+
+
 	}
 
 
@@ -231,7 +256,7 @@ console.log ("sdfkjdshf")
 			
 
 
-				<h2 style={{ textAlign: 'center', marginTop: 20 }}>Patient Registration Form</h2>
+				<h2 style={{ textAlign: 'center', marginTop: 20 }}>Patient Registration logesh Form</h2>
 
 				<Grid container spacing={3} style={{ marginTop: 20 }}>
 					<Grid item xs={12} sm={6}>
